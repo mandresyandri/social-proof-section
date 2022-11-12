@@ -6,7 +6,7 @@ const Content = () => {
         <div>
             <h2 className="headTitle">10,000+ of our users love our products.</h2>
 
-            <p>We only provide great products combined with excellent customer service.
+            <p className="firstParagraph">We only provide great products combined with excellent customer service.
             See what our satisfied customers are saying about our services.</p>
         </div>
     );

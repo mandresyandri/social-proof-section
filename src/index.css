@@ -1,3 +1,16 @@
+/* top part */
+body {
+  background-image: url("../public/images/bg-pattern-top-desktop.svg"), url("../public/images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+}
+.headTitle {
+  color: hsl(300, 43%, 22%);
+}
+
+.firstParagraph {
+  color: hsl(303, 10%, 53%);
+}
+
 /* Code from FrontEnd Mentor */
 .attribution {
   font-size: 11px;
