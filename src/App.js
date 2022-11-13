@@ -1,11 +1,13 @@
 import React from 'react';
 import Attribution from "./Attribution";
-import Content from "./Content";
+import ContentTop from "./ContentTop";
+import ContentBottom from "./ContentBottom";
 
 const App = () => {
     return (
         <main>
-            <Content />
+            <ContentTop />
+            <ContentBottom />
             <Attribution />
         </main>
     );

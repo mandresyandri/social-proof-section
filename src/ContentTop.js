@@ -1,7 +1,7 @@
 import React from 'react';
 import "./index.css"
 
-const Content = () => {
+const ContentTop = () => {
     return (
         <div className="top-flex-part">
             <div className="left-flex-part">
@@ -43,7 +43,8 @@ const Content = () => {
                 </div>
             </div>
         </div>
+
     );
 };
 
-export default Content;
+export default ContentTop;
