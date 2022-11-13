@@ -1,19 +1,84 @@
+/* importing font style */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+/* variables */
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%, 1);
+  --white: hsl(0,0%, 100%);
+}
+
 /* top part */
 body {
   background-image: url("../public/images/bg-pattern-top-desktop.svg"), url("../public/images/bg-pattern-bottom-desktop.svg");
-  background-position: 0% 0% ,80% 60%;
+  background-color: var(--white);
+  background-position: 0% 0% ,100% -20%;
   background-repeat: no-repeat;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 15px;
 }
+
+.top-flex-part {
+  display: flex;
+}
+
+.right-flex-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 120px;
+  margin-left: 200px;
+}
+
+.box {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  display: flex;
+  width: 450px;
+  height: 55px;
+  line-height: 3.9;
+  margin-bottom: 15px;
+}
+
+.stars{
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+svg{
+  margin: 20px 10px 0px 0px
+}
+
+.two{
+  margin-left: 40px;
+}
+
+.three {
+  margin-left: 60px;
+}
+
+.text-content{
+  margin-left: 10px;
+  color: var(--very-dark-magenta);
+  font-weight: bold;
+}
+
 .headTitle {
-  color: hsl(300, 43%, 22%);
-  margin: 10px 0px 0px 30px;
-  width: 250px;
+  color: var(--very-dark-magenta);
+  margin: 100px 0px 0px 150px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 .firstParagraph {
-  color: hsl(303, 10%, 53%);
-  height: 100px;
-  width: 100px;
+  color: var(--dark-grayish-magenta);
+  margin: 25px 0px 0px 150px;
+  width: 350px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 /* Code from FrontEnd Mentor */
@@ -24,3 +89,5 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
