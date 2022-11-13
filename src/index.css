@@ -1,14 +1,19 @@
 /* top part */
 body {
   background-image: url("../public/images/bg-pattern-top-desktop.svg"), url("../public/images/bg-pattern-bottom-desktop.svg");
+  background-position: 0% 0% ,80% 60%;
   background-repeat: no-repeat;
 }
 .headTitle {
   color: hsl(300, 43%, 22%);
+  margin: 10px 0px 0px 30px;
+  width: 250px;
 }
 
 .firstParagraph {
   color: hsl(303, 10%, 53%);
+  height: 100px;
+  width: 100px;
 }
 
 /* Code from FrontEnd Mentor */
