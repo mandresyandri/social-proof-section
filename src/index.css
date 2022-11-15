@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
 
 /* Desktop version */
-
 /* variables */
 :root {
   --very-dark-magenta: hsl(300, 43%, 22%);
@@ -12,7 +11,6 @@
   --white: hsl(0,0%, 100%);
 }
 
-/* top part */
 body {
   background-image: url("../public/images/bg-pattern-top-desktop.svg"), url("../public/images/bg-pattern-bottom-desktop.svg");
   background-color: var(--white);
@@ -139,15 +137,24 @@ p {
 }
 
 /* The mobile version */
-/*@media screen and (min-width: 475px) {
+@media screen and (max-width: 475px) {
   .top-flex-part {
     flex-direction: column;
   }
-
   .bottom-flex-part {
     flex-direction: column;
   }
-}*/
+  .two , .three{
+    margin-left: 0px;
+  }
+
+  .right-flex-part {
+    margin-left: 0px;
+  }
+}
+
+
+
 
 /* Code from FrontEnd Mentor */
 .attribution {
