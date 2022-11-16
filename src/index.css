@@ -140,9 +140,29 @@ p {
 @media screen and (max-width: 475px) {
   .top-flex-part {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+  .headTitle{
+    margin-left: 0px;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 40px;
+  }
+
+  .firstParagraph {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 20px;
+  }
+
   .bottom-flex-part {
     flex-direction: column;
+    margin-left: 0px;
+    align-items: center;
+
   }
   .two , .three{
     margin-left: 0px;
@@ -150,6 +170,44 @@ p {
 
   .right-flex-part {
     margin-left: 0px;
+  }
+
+  .box {
+    width: 350px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .right-flex-part {
+    margin-top: 20px;
+  }
+
+  .stars {
+    text-align: center;
+  }
+
+  .text-content{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .boxTwo {
+    margin-left: 0px;
+  }
+
+  .bottom-flex-part {
+    margin-top: 20px;
+  }
+
+  .third {
+    margin-top: 20px;
   }
 }
 
